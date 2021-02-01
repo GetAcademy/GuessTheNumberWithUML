@@ -1,0 +1,20 @@
+﻿@startuml
+
+class Game{
+    correctNumber
+}
+
+class Guess {
+    number
+}
+
+enum GuessResult{
+    TooHigh
+    TooLow
+    Correct
+}
+
+Guess - GuessResult
+Game -* Guess
+
+@enduml
