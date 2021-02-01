@@ -6,15 +6,10 @@ class Game{
 
 class Guess {
     number
+    IsCorrect
+    Description
 }
 
-enum GuessResult{
-    TooHigh
-    TooLow
-    Correct
-}
-
-Guess - GuessResult
 Game -* Guess
 
 @enduml

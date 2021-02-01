@@ -2,7 +2,7 @@
 
 User --> (Start round)
 User --> (Guess)
-(Start round) ..> (View info and \nall guesses in round)
-(Guess) ..> (View info and \nall guesses in round)
+(Start round) ..> (View info and \nall guesses in round): include
+(Guess) ..> (View info and \nall guesses in round): include
 
 @enduml
